@@ -1,0 +1,63 @@
+.galaxy1 {
+  background-image: url(/images/galaxy1.jpg);
+}
+
+.purplegalaxy {
+  background-image: url(/images/purplegalaxy.jpg);
+}
+
+.starrynight {
+  background-image: url(/images/starrynight.jpeg);
+}
+
+.galaxysize {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  color: white;
+}
+
+.whiteread {
+  color: white;
+}
+
+.firstfloat {
+  font-family: Arial;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  position: absolute;
+  bottom: 200px;
+  left: 3rem;
+}
+
+.main-head {
+  font-family: Arial;
+  position: fixed;
+  color: white;
+  padding-left: 1.7rem;
+  z-index: 1;
+  display: flex;
+}
+
+.nav-style {
+  display: flex;
+  gap: 20px;
+  padding-top: 2.2rem;
+  padding-left: 1rem;
+}
+
+.smallborder {
+  border: 1px solid white;
+  padding: 0.5rem;
+}
+
+footer {
+  padding: 40px;
+  text-align: center;
+  background-color: #050f26;
+  opacity: 1;
+  z-index: 1;
+}
